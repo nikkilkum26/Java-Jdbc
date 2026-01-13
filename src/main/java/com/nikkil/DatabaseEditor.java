@@ -26,8 +26,7 @@ public class DatabaseEditor {
         // Try multiple possible paths for .env file
         String[] possiblePaths = {
             System.getProperty("user.dir") + "/.env",
-            System.getProperty("user.dir") + "/jdbc/.env",
-            "/Users/nikkilkumar/Desktop/Java Learnings/JDBC/jdbc/.env"
+            System.getProperty("user.dir") + "/jdbc/.env"
         };
         
         boolean found = false;
